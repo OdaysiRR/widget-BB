@@ -1,0 +1,84 @@
+.NameContainer {
+    width: 375px;
+    height: 812px;
+    background: #F4F3EF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: relative;
+}
+
+
+
+.omit {
+    font-size: 15px;
+    line-height: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: right;
+    letter-spacing: 0px;
+    color: #0090FF;
+    opacity: 1;
+
+}
+
+.enunciadoName {
+    position: absolute;
+    top: 17px;
+    left: 13px;
+    width: 260px;
+    height: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: left;
+    letter-spacing: 0.48px;
+    color: #29293C;
+    opacity: 1;
+}
+
+.enunciadoBana {
+    width: 102px;
+    color: #29293C;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: left;
+    line-height: 16px;
+    letter-spacing: 0.26px;
+    text-transform: uppercase;
+    opacity: 1;
+
+
+}
+
+.itemName {
+    width: 351px;
+    height: 40px;
+    padding-left: 13px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    margin-bottom: 8px;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 3px #00000033;
+    border-radius: 4px;
+    border: 0;
+    color: #29293C;
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    font-size: 17px;
+    letter-spacing: 0;
+    opacity: 1;
+}
+
+.itemName:focus {
+    outline: none
+}
+
+.itemName::placeholder {
+    font-style: italic;
+    opacity: 0.5;
+}
